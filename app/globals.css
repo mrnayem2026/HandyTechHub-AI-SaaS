@@ -7,6 +7,16 @@ body,
 :root{
   height:100%;
 }
+
+
+.dashboard-before-corner-style{
+  @apply text-black  bg-[#EAEDF7] rounded-l-full before:content-[''] before:w-5 before:h-5 before:bg-transparent before:absolute before:-top-5 before:right-0 before:rounded-br-full before:shadow-[5px_5px_0px_5px_#EAEDF7]
+}
+
+.dashboard-after-corner-style{
+  @apply text-black  bg-[#EAEDF7] rounded-l-full after:content-['']  after:w-5 after:h-5 after:bg-transparent after:absolute after:-bottom-5 after:right-0 after:rounded-tr-full
+  after:shadow-[5px_-5px_0px_5px_#EAEDF7]
+}
  
 @layer base {
   :root {
