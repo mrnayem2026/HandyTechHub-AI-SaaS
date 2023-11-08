@@ -1,12 +1,9 @@
-import { LucideIcon } from "lucide-react";
 import {
-  Code,
-  ImageIcon,
+  LucideIcon,
+  Computer,
   LayoutDashboard,
   MessageSquare,
-  Music,
   Settings,
-  VideoIcon,
 } from "lucide-react";
 
 interface Route {
@@ -30,28 +27,10 @@ const routes: Route[] = [
     color: "text-violet-500",
   },
   {
-    label: "Image Generation",
-    icon: ImageIcon,
+    label: "Explore Others SaaS",
+    icon: Computer,
     color: "text-pink-700",
-    href: "/image",
-  },
-  {
-    label: "Video Generation",
-    icon: VideoIcon,
-    color: "text-orange-700",
-    href: "/video",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    color: "text-emerald-500",
-    href: "/music",
-  },
-  {
-    label: "Code Generation",
-    icon: Code,
-    color: "text-green-700",
-    href: "/code",
+    href: "/explore-others-saas",
   },
   {
     label: "Settings",

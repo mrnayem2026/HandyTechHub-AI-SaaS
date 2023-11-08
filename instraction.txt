@@ -1,0 +1,16 @@
+Dashborad ===========>
+
+1-> Must have 3 navigation.
+    1> Dashborad
+    2> Conversation
+    3> Explore others SaaS
+    ----------
+
+    1> Dashbord => Design
+    ---------
+
+
+2-> Dashborad Navigation Design.
+    1> Use Fremar motion.
+    2> UI must be interactive
+
