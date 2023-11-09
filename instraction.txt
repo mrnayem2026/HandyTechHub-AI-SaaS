@@ -14,3 +14,47 @@ Dashborad ===========>
     1> Use Fremar motion.
     2> UI must be interactive
 
+
+
+
+
+TODO : 09/11/2023
+
+1->  Find AI Image For Explore others SaaS [Code Generation , Music Generation , Video Generation , Image Generation] ✅
+2-> Create a Description for Explore others SaaS.
+
+        1 Code Generation Description
+    ============================================
+    Code Generation Streamline your development process. 
+    Automate repetitive tasks, accelerate coding, and ensure consistency. 
+    Unlock efficiency and precision with our cutting-edge code generation tools, 
+    empowering developers like never before.
+
+
+
+        2 Music Generation  Description
+    ============================================
+    Music Generation Dive into the world of creativity! 
+    Our innovative tools and vast libraries empower you to compose, 
+    remix, and produce music, making your musical dreams come alive.
+
+
+        3 Video Generation Description
+    ============================================
+    Video Generation: Revolutionize content creation with our advanced platform.
+    Effortlessly generate stunning videos, from concept to final edit, 
+    and bring your vision to life with ease and creativity."
+
+        4 Image Generation Description
+    ============================================
+    Image Generation: Unlock endless visual possibilities. 
+    Our tools enable you to craft stunning images, 
+    from art to design, effortlessly. Harness the 
+    power of creativity with ease and precision.
+
+
+
+
+
+3-> Responsive Design for Explore others SaaS.
+4-> Using Hover Effect and Eey cathing visulijation .

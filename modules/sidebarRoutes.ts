@@ -30,7 +30,7 @@ const routes: Route[] = [
     label: "Explore Others SaaS",
     icon: Computer,
     color: "text-pink-700",
-    href: "/explore-others-saas",
+    href: "/explore-others-saas-products",
   },
   {
     label: "Settings",
