@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import '../components/sidebar.css'
+import { ModeToggle } from "@/app/utils/modeToggle";
 
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ const Sidebar = () => {
       </Link>
 
       <div className="space-y-1">
+        <ModeToggle></ModeToggle>
         {routes.map((route) => (
           <motion.a
             onClick={() => setIsActive(!isActive)}

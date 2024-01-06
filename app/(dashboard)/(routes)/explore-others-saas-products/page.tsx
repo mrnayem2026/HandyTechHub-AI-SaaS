@@ -4,6 +4,7 @@ import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 import "../explore-others-saas-products/explore-others-saas-products.css";
+import Image from "next/image";
 
 // Google Font initalize Start
 const anton = Anton({
@@ -45,11 +46,11 @@ const ExploreOthersSaasPage = () => {
           <div className="cardContainer">
             <div className="wholeCard w-96 bg-[#FFC436] shadow-[0px_0px_32px_0px_#FFC436] rounded-xl">
               <figure className="cardImage relative">
-                <img
+                <Image
                   src="https://img.freepik.com/free-photo/young-adult-programmer-typing-computer-office-generated-by-ai_188544-20410.jpg"
                   alt="CodeGeneration"
                   className="absolute -top-28 left-12 w-72 h-52 rounded-xl"
-                />
+                ></Image>
               </figure>
               <div>
                 <h1
@@ -124,11 +125,11 @@ const ExploreOthersSaasPage = () => {
           <div className="cardContainer mt-40">
             <div className="wholeCard w-96 bg-[#00A9FF] shadow-[0px_0px_32px_0px_#00A9FF] rounded-xl">
               <figure className="cardImage relative">
-                <img
+                <Image
                   src="https://img.freepik.com/premium-photo/music-class-full-swing-with-students-playing-different-instruments-harmonizing-melody_741910-52355.jpg"
-                  alt="CodeGeneration"
                   className="absolute -top-28 left-12 w-72 h-52 rounded-xl"
-                />
+                  alt="Music Generation"
+                ></Image>
               </figure>
               <div>
                 <h1
@@ -137,7 +138,9 @@ const ExploreOthersSaasPage = () => {
                   Music Generation
                 </h1>
                 <div className="card-body cardContent">
-                  <h2 className={` ${anton.className} text-white text-4xl font-bold`}>
+                  <h2
+                    className={` ${anton.className} text-white text-4xl font-bold`}
+                  >
                     Music Generation
                   </h2>
                   <p className={`${roboto.className} text-white text-base`}>
@@ -206,11 +209,11 @@ const ExploreOthersSaasPage = () => {
           <div className="cardContainer">
             <div className="wholeCard w-96 bg-[#FB416B] shadow-[0px_0px_32px_0px_#FB416B] rounded-xl">
               <figure className="cardImage relative">
-                <img
+                <Image
                   src="https://img.freepik.com/premium-photo/focused-videographer-editing-movie-professional-computer-sitting-desk-business-office_148840-11501.jpg"
-                  alt="CodeGeneration"
+                  alt="Video Generation"
                   className="absolute -top-28 left-12 w-72 h-52 rounded-xl"
-                />
+                ></Image>
               </figure>
               <div>
                 <h1
@@ -219,7 +222,9 @@ const ExploreOthersSaasPage = () => {
                   Video Generation
                 </h1>
                 <div className="card-body cardContent ">
-                  <h2 className={` ${anton.className} text-white text-4xl font-bold`}>
+                  <h2
+                    className={` ${anton.className} text-white text-4xl font-bold`}
+                  >
                     Video Generation
                   </h2>
                   <p className={`${roboto.className} text-white text-base`}>
@@ -285,11 +290,11 @@ const ExploreOthersSaasPage = () => {
           <div className="cardContainer mt-40">
             <div className="wholeCard w-96 bg-[#F875AA] shadow-[0px_0px_32px_0px_#F875AA] rounded-xl">
               <figure className="cardImage relative">
-                <img
+                <Image
                   src="https://img.freepik.com/premium-photo/room-with-large-bookcase-couch-with-pillows-lamp-table_924629-4025.jpg"
                   alt="CodeGeneration"
                   className="absolute -top-28 left-12 w-72 h-52 rounded-xl"
-                />
+                ></Image>
               </figure>
               <div>
                 <h1
@@ -305,7 +310,8 @@ const ExploreOthersSaasPage = () => {
                     Image Generation: Unlock endless visual possibilities. Our
                     tools enable you to craft stunning images, from art to
                     design, effortlessly. Harness the power of creativity with
-                    ease and precision.Embark on a journey of limitless visual possibilities with our Image Generation tools. 
+                    ease and precision.Embark on a journey of limitless visual
+                    possibilities with our Image Generation tools.
                   </p>
 
                   {/* Explore Button  */}
